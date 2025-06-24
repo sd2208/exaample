@@ -7,7 +7,7 @@ public class HelloExample{
     final static Logger logger = Logger.getLogger(HelloExample.class);
     
     public static void main(String[] args) {
-    
+        String password = "abc123";
         HelloExample obj = new HelloExample();
         obj.runMe("Test");
         
@@ -16,7 +16,7 @@ public class HelloExample{
     private void runMe(String parameter){
         
         if(logger.isDebugEnabled()){
-            logger.debug("This is debug : " + parameter);
+            logger.debug("This is a debug line : " + parameter);
         }
         
         if(logger.isInfoEnabled()){
