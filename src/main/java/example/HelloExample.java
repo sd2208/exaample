@@ -7,7 +7,7 @@ public class HelloExample{
     final static Logger logger = Logger.getLogger(HelloExample.class);
     
     public static void main(String[] args) {
-    
+        String password = "abc123";
         HelloExample obj = new HelloExample();
         obj.runMe("Test");
         
